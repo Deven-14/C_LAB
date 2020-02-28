@@ -10,17 +10,17 @@ float input()
 float process(float r)
 {
 	float area=pi*r*r;
-	return r;
+	return area;
 }
 void output(float area)
 {
-	printf("The area of the circl is %f",area);
+	printf("The area of the circle is %f\n",area);
 }
 int main()
 { 
 	float r, area;
 	r=input();
-	area=prcess(r);
+	area=process(r);
 	output(area);
 	return 0;
 }
