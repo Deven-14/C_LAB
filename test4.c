@@ -6,7 +6,7 @@ int main()
 	scanf("%d",&n);
 	switch(n)
 	{
-5		case 1:printf("January\n");
+		case 1:printf("January\n");
 			break;
 		case 2:printf("February\n");
 			break;
