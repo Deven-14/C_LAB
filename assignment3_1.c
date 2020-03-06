@@ -14,8 +14,8 @@ int main()
     switch(flag)
     {
         case 1:
-            r1=(-b+srqt(d))/(2*a);
-            r2=(-b-srqt(d))/(2*a);
+            r1=(-b+sqrt(d))/(2*a);
+            r2=(-b-sqrt(d))/(2*a);
             printf("The roots are real and distinct.\n");
             printf("The roots are %f and %f\n",r1,r2);
             break;
@@ -25,7 +25,7 @@ int main()
             printf("The roots are real and equal.\n");
             printf("The roots are %f and %f\n",r1,r2);
             break;
-        default:printf("The roots are imaginary");
+        default:printf("The roots are imaginary\n");
     }
     return 0;
 }
