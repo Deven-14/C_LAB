@@ -1,5 +1,5 @@
-#include<stdio.h>
-#define pi 3.14
+#include <stdio.h>
+#define PI 3.14
 float input()
 {
 	float r;
@@ -9,7 +9,7 @@ float input()
 }
 float process(float r)
 {
-	float area=pi*r*r;
+	float area=PI*r*r;
 	return area;
 }
 void output(float area)
