@@ -6,31 +6,31 @@ int main()
 	scanf("%d",&n);
 	switch(n)
 	{
-		case 1:printf("\nJanuary\n");
+5		case 1:printf("January\n");
 			break;
-		case 2:printf("\nFebruary\n");
+		case 2:printf("February\n");
 			break;
-		case 3:printf("\nMarch\n");
+		case 3:printf("March\n");
 			break;
-		case 4:printf("\nApril\n");
+		case 4:printf("April\n");
 			break;
-		case 5:printf("\nMay\n");
+		case 5:printf("May\n");
 			break;
-		case 6:printf("\nJune\n");
+		case 6:printf("June\n");
 			break;
-		case 7:printf("\nJuly\n");
+		case 7:printf("July\n");
 			break;
-		case 8:printf("\nAugust\n");
+		case 8:printf("August\n");
 			break;
-		case 9:printf("\nSeptember\n");
+		case 9:printf("September\n");
 			break;
-		case 10:printf("\nOctober\n");
+		case 10:printf("October\n");
 			break;
-		case 11:printf("\nNovember\n");
+		case 11:printf("November\n");
 			break;
-		case 12:printf("\nDecember\n");
+		case 12:printf("December\n");
 			break;
-		default:printf("\nWrong Input\n");
+		default:printf("Wrong Input\n");
 	}
 	return 0;
 }
