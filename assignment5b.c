@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int i,odd[10]={1,3,5,7,9,11,13,15};
