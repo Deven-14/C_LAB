@@ -2,12 +2,14 @@
 int main()
 {
     int sum=0,n,i,a[50];
+    float avg;
     printf("Enter the value of n:\n");
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
-        a[i]=i;
-    for(i=1;i<=n;i++)
+    for(i=0;i<n;i++)
+        a[i]=i+1;
+    for(i=0;i<n;i++)
         sum+=a[i];
-    printf("The sum of first %d numbers is: %d\n",n,sum);
+    avg=(float)sum/n;
+    printf("The avg of first %d numbers is: %f\n",n,avg);
     return 0;
 }
