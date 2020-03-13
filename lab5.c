@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 	int n,i,s,s_pos,l,l_pos,a[50];
