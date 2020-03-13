@@ -5,7 +5,7 @@ int main()
     printf("The array before storing the missing element 10 is:\n");
     for(i=0;i<7;i++)
         printf("%d ",even[i]);
-    for(i=6;i>=4;i--)   //i=n-1;i<=pos;i--
+    for(i=6;i>=4;i--)   //i=n-1;i>=pos;i--
         even[i+1]=even[i];
     even[4]=10;
     printf("\nThe array after storing the missing element 10 is:\n");
