@@ -10,7 +10,7 @@ int main()
             break;
         }
     }
-    if(i==n)
+    if(i==6)
         printf("11 is not present in the array\n");
     return 0;
 }
