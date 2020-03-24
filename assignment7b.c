@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     int a[10]={23,27,5,7,33,17,7,19,21,57},s=21,i;
