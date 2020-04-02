@@ -16,8 +16,8 @@ int main()
         else
             printf("Wrong input.\n");
         printf("Enter another character or enter * to exit:\n");
-        scanf("%c",&ch);
-    }while(ch!=*);
+        scanf(" %c",&ch);
+    }while(ch!='*');
     printf("Total uppercase = %d, lowercase = %d, number = %d\n",u,l,n);
     return 0;
 }
