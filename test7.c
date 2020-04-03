@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int i,j,m,n,a[50][50],transpose[50][50];
