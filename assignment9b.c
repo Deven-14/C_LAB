@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int i,j,m,n,f[50][50],s[50][50],sum[50][50],diff[50][50];
