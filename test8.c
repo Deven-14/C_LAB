@@ -8,7 +8,7 @@ int main()
 	while(s[c]!='\0')
 		c++;
 	len=c;
-	for(i=0;i<len;i++)
+	for(i=0;i<len/2;i++)
 		if(s[i]!=s[len-1-i])
 		{
 			flag=1;
