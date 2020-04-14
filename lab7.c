@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 void concatenate(char p[],char q[])
 {
 	int c=0,d=0;
